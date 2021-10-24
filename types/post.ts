@@ -2,6 +2,8 @@ import Author from './author'
 
 type PostType = {
   slug: string
+  category: string
+  tag: string[]
   title: string
   date: string
   coverImage: string
